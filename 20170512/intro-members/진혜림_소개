@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--background-image: url('http://cfile21.uf.tistory.com/image/226C9E3B527AEA510DBBF5');-->
+<style> 
+div {
+    width: 450px;
+    height: 450px;
+	background-color : #8C8CF1;    
+    position: relative;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: 100;
+    animation-direction: reverse;    
+    
+}
+ p {
+    color: blue;
+    margin: 8px;
+  }
+
+/* Standard syntax */
+@keyframes example {
+    0%   {  left:0px; top:0px;}
+    25%  {  left:300px; top:0px;}
+    50%  {  left:300px; top:300px;}
+    75%  { left:0px; top:300px;}
+    100% { left:0px; top:0px;}
+}
+
+</style>
+<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript">
+</script>
+</head>
+<body >
+<div id="myDiv">
+<ul>
+	<li>Hyerim Jin</li>
+	<li>age : 26</li>
+	<li>Web Developer</li>
+	<li>초급 개발자로서 배울것들이 많다고 생각해서 참가했습니다.</li>
+</ul>
+</div>
+
+
+</body>
+</html>
